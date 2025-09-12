@@ -14,6 +14,7 @@ ggplot() +
   coord_fixed() +
   ggpubr::theme_transparent() +
   theme_void()
+  
 
 ```
 ![one daisy](./static/daisy.png)
