@@ -1,5 +1,5 @@
 #' daisy
-#' 
+#'
 #' @description
 #' `geom_daisy` creates a ggplot daisy.
 #' @import ggplot2
@@ -15,16 +15,16 @@
 #' @export
 #'
 #' @examples
-#' 
+#'
 #' library(ggplot2)
 #' library(ggforce)
-#' 
+#'
 #' ggplot() +
 #'  geom_daisy() +
 #'  coord_fixed() +
 #'  theme_void()
-#' 
-#' 
+#'
+#'
 geom_daisy <- function(
   x = 1,
   y = 1,
@@ -125,7 +125,9 @@ geom_daisy <- function(
     # centre
     ggforce::geom_circle(
       aes(
-        x0 = x, y0 = y, r = 0.7 * scale
+        x0 = x,
+        y0 = y,
+        r = 0.7 * scale
       ),
       colour = "transparent",
       fill = center
