@@ -2,6 +2,8 @@
 #' 
 #' @description
 #' `geom_daisy` creates a ggplot daisy.
+#' @import ggplot2
+#' @import ggforce
 #'
 #' @param x = 1 x position
 #' @param y = 1 y position
@@ -13,6 +15,9 @@
 #' @export
 #'
 #' @examples
+#' 
+#' library(ggplot2)
+#' library(ggforce)
 #' 
 #' ggplot() +
 #'  geom_daisy() +
